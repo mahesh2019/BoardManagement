@@ -1,0 +1,20 @@
+<head>
+	<title> SIGN UP PAGE </title>
+</head>
+
+<body>
+	<h1> signup form </h1>
+
+	<form action='' method='POST'>
+		{% csrf_token %}
+
+		Name:
+		<input type='text' name="name">
+		<br/>
+		Password:
+		<input type='text' name="password">
+		<br/>
+		<input type="submit" value="Submit">
+	</form>
+
+</body>
